@@ -2,6 +2,7 @@
 #include <string>
 
 using namespace std;
+
 /*
  * Complete the 'timeConversion' function below.
  *
