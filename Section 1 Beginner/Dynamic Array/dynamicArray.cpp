@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-
+#include <vector>
 using namespace std;
 
 string ltrim(const string &);
@@ -8,7 +8,7 @@ vector<string> split(const string &);
 
 /*
  * Complete the 'dynamicArray' function below.
- *
+
  * The function is expected to return an INTEGER_ARRAY.
  * The function accepts following parameters:
  *  1. INTEGER n
@@ -23,7 +23,7 @@ vector<int> dynamicArray(int n, vector<vector<int>> queries) {
     
     int lastAnswer =0; 
     
-    for(vector query:queries){
+    for(const auto query:queries){
         int x = query[1]; 
         int y = query[2];
         
